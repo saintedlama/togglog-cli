@@ -5,5 +5,5 @@ module.exports = {
   builder(yargs) {
     return yargs.commandDir('workspaces');
   },
-  handler(argv) {},
+  handler() {},
 };

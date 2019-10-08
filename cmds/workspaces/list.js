@@ -7,7 +7,7 @@ module.exports = {
   command: ['list', '$0'],
   desc: 'Lists workspaces',
   builder: {},
-  async handler(argv) {
+  async handler() {
     const client = createClient();
 
     const workspaces = (await client.workspaces.list()).map(w => ({

@@ -10,7 +10,7 @@ module.exports = {
   command: ['list', '$0'],
   desc: 'Lists time entries',
   builder: {},
-  async handler(argv) {
+  async handler() {
     const client = createClient();
 
     const projects = await listProjects(client);

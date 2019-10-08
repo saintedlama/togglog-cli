@@ -4,5 +4,5 @@ module.exports = {
   builder(yargs) {
     return yargs.commandDir('time');
   },
-  handler(argv) {},
+  handler() {},
 };
