@@ -1,12 +1,18 @@
 # Togglog Cli
 
-Command line utility to log time entries and more using toggl ![Heavy WIP](https://img.shields.io/badge/-Work%20in%20Progress-red)
+Command line utility to log time entries and more using toggl
+
+![Heavy WIP](https://img.shields.io/badge/-Work%20in%20Progress-red)
 
 ## Installation
 
 ```bash
-npm i toggler-cli -g
+npm i togglog-cli -g
 ```
+
+>
+> Before using togglog the TOGGL_API_TOKEN environment variable has to be set to a Toggl API token. [You can get your token here](https://toggl.com/app/profile).
+>
 
 ## Usage
 
