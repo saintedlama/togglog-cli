@@ -1,0 +1,46 @@
+{
+  "name": "togglog-cli",
+  "version": "1.0.0",
+  "description": "Command line utility to log time entries and more using toggl",
+  "bin": {
+    "togglog": "./cli.js"
+  },
+  "scripts": {
+    "test": "mocha --recursive test",
+    "coverage": "nyc npm run test",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "release": "standard-version"
+  },
+  "repository": "saintedlama/togglog-cli",
+  "keywords": [
+    "toggl",
+    "time",
+    "entry",
+    "cli"
+  ],
+  "author": "Christoph Walcher <christoph.walcher@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saintedlama/togglog-cli/issues"
+  },
+  "homepage": "https://github.com/saintedlama/togglog-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "dayjs": "^1.8.16",
+    "humanize-duration": "^3.21.0",
+    "table-layout": "^1.0.0",
+    "toggl-client": "^1.0.1",
+    "yargs": "^14.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "mocha": "^6.2.1",
+    "nyc": "^14.1.1",
+    "prettier": "^1.18.2",
+    "standard-version": "^7.0.0"
+  }
+}
