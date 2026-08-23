@@ -26,21 +26,21 @@
   },
   "homepage": "https://github.com/saintedlama/togglog-cli#readme",
   "dependencies": {
-    "chalk": "^2.4.2",
-    "dayjs": "^1.8.16",
-    "humanize-duration": "^3.21.0",
-    "table-layout": "^1.0.0",
-    "toggl-client": "^1.0.1",
-    "yargs": "^14.0.0"
+    "chalk": "^6.0.0",
+    "dayjs": "^1.11.23",
+    "humanize-duration": "^3.34.1",
+    "table-layout": "^4.1.1",
+    "toggl-client": "^3.5.0",
+    "yargs": "^18.1.0"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
-    "eslint": "^6.5.1",
-    "eslint-config-prettier": "^6.3.0",
-    "eslint-plugin-prettier": "^3.1.1",
-    "mocha": "^6.2.1",
-    "nyc": "^14.1.1",
-    "prettier": "^1.18.2",
-    "standard-version": "^7.0.0"
+    "chai": "^6.2.2",
+    "eslint": "^10.9.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.6",
+    "mocha": "^11.8.0",
+    "nyc": "^18.0.0",
+    "prettier": "^3.9.6",
+    "standard-version": "^9.5.0"
   }
 }
